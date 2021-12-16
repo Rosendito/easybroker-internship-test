@@ -29,8 +29,29 @@ class PrintPropertiesTitlesActionTest extends TestCase
      */
     public function setUp(): void
     {
-        $this->properties = $this->getPropertiesStub();
+        $this->setPropertiesStub();
+        $this->setActionWithEasyBrokerServiceMock();
+    }
 
+    /**
+     * Set properties from stub
+     *
+     * @return void
+     */
+    private function setPropertiesStub(): void
+    {
+        $file = file_get_contents(__DIR__ . '/stubs/properties.json');
+
+        $this->properties =  (array) json_decode($file);
+    }
+
+    /**
+     * Set action with easybroker service mock
+     *
+     * @return void
+     */
+    protected function setActionWithEasyBrokerServiceMock(): void
+    {
         $service = $this->getMockBuilder(EasyBrokerService::class)
             ->getMock();
 
@@ -39,18 +60,6 @@ class PrintPropertiesTitlesActionTest extends TestCase
             ->willReturn($this->properties);
 
         $this->action = new PrintPropertiesTitlesAction($service);
-    }
-
-    /**
-     * Get properties stub
-     *
-     * @return array
-     */
-    private function getPropertiesStub(): array
-    {
-        $file = file_get_contents(__DIR__ . '/stubs/properties.json');
-
-        return (array) json_decode($file);
     }
 
     /** @test */
