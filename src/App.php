@@ -2,6 +2,8 @@
 
 namespace App;
 
+use App\Actions\PrintPropertiesTitlesAction;
+
 class App
 {
     /**
@@ -11,6 +13,8 @@ class App
      */
     public function boot(): bool
     {
+        (new PrintPropertiesTitlesAction())->handle();
+
         return true;
     }
 }
