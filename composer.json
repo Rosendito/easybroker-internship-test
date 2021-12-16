@@ -21,5 +21,8 @@
         "psr-4": {
             "Tests\\": "tests/"
         }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.0"
     }
 }
