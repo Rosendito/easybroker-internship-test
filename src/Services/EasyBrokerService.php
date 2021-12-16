@@ -18,7 +18,7 @@ class EasyBrokerService
      *
      * @var string
      */
-    protected string $apiBaseUrl = 'https://api.easybroker.com';
+    protected string $apiBaseUrl = 'https://api.stagingeb.com';
 
     /**
      * Api key
@@ -58,5 +58,17 @@ class EasyBrokerService
     public function getHttpClient(): Client
     {
         return $this->http;
+    }
+
+    /**
+     * Get properties
+     *
+     * @return array
+     */
+    public function getProperties(): array
+    {
+        $response = $this->http->get('/v1/properties');
+
+        return  (array) json_decode($response->getBody()->getContents());
     }
 }

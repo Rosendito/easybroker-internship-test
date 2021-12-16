@@ -6,17 +6,9 @@ use App\Services\EasyBrokerService;
 
 class PrintPropertiesTitlesAction
 {
-    /**
-     * EasyBroker service
-     *
-     * @var EasyBrokerService
-     */
-    protected EasyBrokerService $easyBrokerService;
-
-    public function __construct()
-    {
-        $this->easyBrokerService = new EasyBrokerService();
-    }
+    public function __construct(
+        protected EasyBrokerService $easyBrokerService
+    ){ }
 
     /**
      * Handle action
@@ -25,6 +17,44 @@ class PrintPropertiesTitlesAction
      */
     public function handle(): void
     {
-        echo "Hola mundo!";
+        $this->printPropertiesTitles();
+    }
+
+    /**
+     * Get properties from easy broker service
+     *
+     * @return array
+     */
+    public function getProperties(): array
+    {
+        return $this->easyBrokerService->getProperties()['content'];
+    }
+
+    /**
+     * Get properties titles
+     *
+     * @return array
+     */
+    public function getPropertiesTitles(): array
+    {
+        return array_column($this->getProperties(), 'title');
+    }
+
+    /**
+     * Print properties titles
+     *
+     * @return void
+     */
+    public function printPropertiesTitles(): void
+    {
+        $list = '<ul>' . PHP_EOL;
+
+        foreach ($this->getPropertiesTitles() as $title) {
+            $list .= '<li>' . $title . PHP_EOL . '</li>';
+        }
+
+        $list .= '</ul>';
+
+        echo $list;
     }
 }

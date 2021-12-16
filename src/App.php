@@ -3,6 +3,7 @@
 namespace App;
 
 use App\Actions\PrintPropertiesTitlesAction;
+use App\Services\EasyBrokerService;
 
 class App
 {
@@ -11,10 +12,20 @@ class App
      *
      * @return boolean
      */
-    public function boot(): bool
+    public function boot(): void
     {
-        (new PrintPropertiesTitlesAction())->handle();
+        $this->runPrintPropertiesTitlesAction();
+    }
 
-        return true;
+    /**
+     * Run print properties titles action
+     *
+     * @return void
+     */
+    protected function runPrintPropertiesTitlesAction(): void
+    {
+        (new PrintPropertiesTitlesAction(
+            new EasyBrokerService()
+        ))->handle();
     }
 }

@@ -1,0 +1,510 @@
+{
+  "pagination": {
+    "limit": 20,
+    "page": 1,
+    "total": 766,
+    "next_page": "https://api.stagingeb.com/v1/properties?page=2"
+  },
+  "content": [
+    {
+      "public_id": "EB-C0156",
+      "title": "Casa con uso de suelo prueba",
+      "title_image_full": "https://assets.stagingeb.com/property_images/30156/116630/EB-C0156.png?version=1598540675",
+      "title_image_thumb": "https://assets.stagingeb.com/property_images/30156/116630/EB-C0156_thumb.png?version=1598540675",
+      "location": "La Punta, Cosío, Aguascalientes",
+      "operations": [
+        {
+          "type": "sale",
+          "amount": 12312312.0,
+          "currency": "MXN",
+          "formatted_amount": "$12,312,312",
+          "unit": "total"
+        }
+      ],
+      "bedrooms": 1,
+      "bathrooms": 2,
+      "parking_spaces": null,
+      "property_type": "Casa con uso de suelo",
+      "lot_size": 0.0,
+      "construction_size": 0.0,
+      "updated_at": "2020-12-10T11:47:38-06:00",
+      "agent": "Alejandro Blanco Zivec",
+      "show_prices": true
+    },
+    {
+      "public_id": "EB-C0313",
+      "title": "afsdf",
+      "title_image_full": null,
+      "title_image_thumb": null,
+      "location": "Ciudad Insurgentes, Comondú, Baja California Sur",
+      "operations": [
+        {
+          "type": "sale",
+          "amount": 234223.0,
+          "currency": "MXN",
+          "formatted_amount": "$234,223",
+          "unit": "total"
+        }
+      ],
+      "bedrooms": null,
+      "bathrooms": null,
+      "parking_spaces": null,
+      "property_type": "Bodega industrial",
+      "lot_size": 342.0,
+      "construction_size": 432.0,
+      "updated_at": "2020-12-10T11:47:38-06:00",
+      "agent": "Alejandro Blanco Zivec",
+      "show_prices": true
+    },
+    {
+      "public_id": "EB-B5338",
+      "title": "Locales en Venta Edificio Roble en San Pedro Garza Garcia",
+      "title_image_full": "https://assets.stagingeb.com/property_images/25338/49435/EB-B5338.jpg?version=1555543329",
+      "title_image_thumb": "https://assets.stagingeb.com/property_images/25338/49435/EB-B5338_thumb.jpg?version=1555543329",
+      "location": "Valle Del Campestre, San Pedro Garza García, Nuevo León",
+      "operations": [
+        {
+          "type": "sale",
+          "amount": 5506200.0,
+          "currency": "MXN",
+          "formatted_amount": "$5,506,200",
+          "unit": "total"
+        }
+      ],
+      "bedrooms": null,
+      "bathrooms": null,
+      "parking_spaces": null,
+      "property_type": "Local comercial",
+      "lot_size": 0.0,
+      "construction_size": 61.0,
+      "updated_at": "2020-12-14T17:07:37-06:00",
+      "agent": "Alejandro Blanco Zivec",
+      "show_prices": true
+    },
+    {
+      "public_id": "EB-B5339",
+      "title": "Locales en Venta Amadeus Calzada del Valle",
+      "title_image_full": "https://assets.stagingeb.com/property_images/25339/49442/EB-B5339.jpg?version=1555543334",
+      "title_image_thumb": "https://assets.stagingeb.com/property_images/25339/49442/EB-B5339_thumb.jpg?version=1555543334",
+      "location": "Del Valle, San Pedro Garza García, Nuevo León",
+      "operations": [
+        {
+          "type": "sale",
+          "amount": 5954400.0,
+          "currency": "MXN",
+          "formatted_amount": "$5,954,400",
+          "unit": "total"
+        }
+      ],
+      "bedrooms": null,
+      "bathrooms": null,
+      "parking_spaces": 114,
+      "property_type": "Local en centro comercial",
+      "lot_size": 0.0,
+      "construction_size": 49.0,
+      "updated_at": "2020-12-14T17:07:37-06:00",
+      "agent": "Alejandro Blanco Zivec",
+      "show_prices": true
+    },
+    {
+      "public_id": "EB-B5341",
+      "title": "Casa en Venta en Colonia del Valle en San Pedro Garza Garcia",
+      "title_image_full": "https://assets.stagingeb.com/property_images/25341/49460/EB-B5341.jpg?version=1555543346",
+      "title_image_thumb": "https://assets.stagingeb.com/property_images/25341/49460/EB-B5341_thumb.jpg?version=1555543346",
+      "location": "Del Valle, San Pedro Garza García, Nuevo León",
+      "operations": [
+        {
+          "type": "sale",
+          "amount": 28100000.0,
+          "currency": "MXN",
+          "formatted_amount": "$28,100,000",
+          "unit": "total"
+        }
+      ],
+      "bedrooms": 5,
+      "bathrooms": 6,
+      "parking_spaces": null,
+      "property_type": "Casa",
+      "lot_size": 500.0,
+      "construction_size": 590.0,
+      "updated_at": "2020-12-14T17:07:37-06:00",
+      "agent": "Alejandro Blanco Zivec",
+      "show_prices": true
+    },
+    {
+      "public_id": "EB-B5357",
+      "title": "Locales Comerciales en Venta Vasconcelos San Pedro Garza Garcia",
+      "title_image_full": "https://assets.stagingeb.com/property_images/25357/49606/EB-B5357.jpg?version=1601049752",
+      "title_image_thumb": "https://assets.stagingeb.com/property_images/25357/49606/EB-B5357_thumb.jpg?version=1601049752",
+      "location": "Valle de Vasconcelos, San Pedro Garza García, Nuevo León",
+      "operations": [
+        {
+          "type": "sale",
+          "amount": 2945600.0,
+          "currency": "MXN",
+          "formatted_amount": "$2,945,600",
+          "unit": "total"
+        }
+      ],
+      "bedrooms": null,
+      "bathrooms": null,
+      "parking_spaces": 154,
+      "property_type": "Local en centro comercial",
+      "lot_size": 0.0,
+      "construction_size": 36.0,
+      "updated_at": "2020-12-14T17:07:37-06:00",
+      "agent": "Alejandro Blanco Zivec",
+      "show_prices": true
+    },
+    {
+      "public_id": "EB-B5331",
+      "title": "Casa en Venta del Valle en San Pedro Garza García",
+      "title_image_full": "https://assets.stagingeb.com/property_images/25331/49375/EB-B5331.jpg?version=1555543293",
+      "title_image_thumb": "https://assets.stagingeb.com/property_images/25331/49375/EB-B5331_thumb.jpg?version=1555543293",
+      "location": "Del Valle, San Pedro Garza García, Nuevo León",
+      "operations": [
+        {
+          "type": "sale",
+          "amount": 24450000.0,
+          "currency": "MXN",
+          "formatted_amount": "$24,450,000",
+          "unit": "total"
+        }
+      ],
+      "bedrooms": 3,
+      "bathrooms": 4,
+      "parking_spaces": 4,
+      "property_type": "Casa",
+      "lot_size": 432.0,
+      "construction_size": 516.0,
+      "updated_at": "2020-12-14T17:07:38-06:00",
+      "agent": "Alejandro Blanco Zivec",
+      "show_prices": true
+    },
+    {
+      "public_id": "EB-B5333",
+      "title": "Casa en Venta en Valle San Pedro Garza Garcia",
+      "title_image_full": "https://assets.stagingeb.com/property_images/25333/49393/EB-B5333.jpg?version=1555543305",
+      "title_image_thumb": "https://assets.stagingeb.com/property_images/25333/49393/EB-B5333_thumb.jpg?version=1555543305",
+      "location": "Palo Blanco, San Pedro Garza García, Nuevo León",
+      "operations": [
+        {
+          "type": "sale",
+          "amount": 27000000.0,
+          "currency": "MXN",
+          "formatted_amount": "$27,000,000",
+          "unit": "total"
+        }
+      ],
+      "bedrooms": 3,
+      "bathrooms": 5,
+      "parking_spaces": 4,
+      "property_type": "Casa",
+      "lot_size": 766.0,
+      "construction_size": 783.0,
+      "updated_at": "2020-12-14T17:07:38-06:00",
+      "agent": "Alejandro Blanco Zivec",
+      "show_prices": true
+    },
+    {
+      "public_id": "EB-B5336",
+      "title": "Casa en Venta Colonia del Valle en San Pedro Garza Garcia",
+      "title_image_full": "https://assets.stagingeb.com/property_images/25336/49414/EB-B5336.jpg?version=1555543317",
+      "title_image_thumb": "https://assets.stagingeb.com/property_images/25336/49414/EB-B5336_thumb.jpg?version=1555543317",
+      "location": "Del Valle, San Pedro Garza García, Nuevo León",
+      "operations": [
+        {
+          "type": "sale",
+          "amount": 28900000.0,
+          "currency": "MXN",
+          "formatted_amount": "$28,900,000",
+          "unit": "total"
+        }
+      ],
+      "bedrooms": 5,
+      "bathrooms": 5,
+      "parking_spaces": null,
+      "property_type": "Casa",
+      "lot_size": 500.0,
+      "construction_size": 630.0,
+      "updated_at": "2020-12-14T17:07:38-06:00",
+      "agent": "Alejandro Blanco Zivec",
+      "show_prices": true
+    },
+    {
+      "public_id": "EB-B5368",
+      "title": "Casa en Venta Lomas del Valle en San Pedro Garza Garcia",
+      "title_image_full": "https://assets.stagingeb.com/property_images/25368/49689/EB-B5368.jpg?version=1555543501",
+      "title_image_thumb": "https://assets.stagingeb.com/property_images/25368/49689/EB-B5368_thumb.jpg?version=1555543501",
+      "location": "Lomas Del Valle, San Pedro Garza García, Nuevo León",
+      "operations": [
+        {
+          "type": "sale",
+          "amount": 27950000.0,
+          "currency": "MXN",
+          "formatted_amount": "$27,950,000",
+          "unit": "total"
+        }
+      ],
+      "bedrooms": 4,
+      "bathrooms": 6,
+      "parking_spaces": null,
+      "property_type": "Casa",
+      "lot_size": 500.0,
+      "construction_size": 625.0,
+      "updated_at": "2020-12-14T17:07:38-06:00",
+      "agent": "Alejandro Blanco Zivec",
+      "show_prices": true
+    },
+    {
+      "public_id": "EB-B5369",
+      "title": "Casa en Venta Colonia del Valle en San Pedro Garza Garcia",
+      "title_image_full": "https://assets.stagingeb.com/property_images/25369/49705/EB-B5369.jpg?version=1555543511",
+      "title_image_thumb": "https://assets.stagingeb.com/property_images/25369/49705/EB-B5369_thumb.jpg?version=1555543511",
+      "location": "Del Valle, San Pedro Garza García, Nuevo León",
+      "operations": [
+        {
+          "type": "sale",
+          "amount": 30850000.0,
+          "currency": "MXN",
+          "formatted_amount": "$30,850,000",
+          "unit": "total"
+        }
+      ],
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "parking_spaces": null,
+      "property_type": "Casa",
+      "lot_size": 590.0,
+      "construction_size": 610.0,
+      "updated_at": "2020-12-14T17:07:38-06:00",
+      "agent": "Alejandro Blanco Zivec",
+      "show_prices": true
+    },
+    {
+      "public_id": "EB-B5372",
+      "title": "Local en Renta Plaza Villas Valle San Pedro Garza Garcia",
+      "title_image_full": "https://assets.stagingeb.com/property_images/25372/49729/EB-B5372.jpg?version=1555543525",
+      "title_image_thumb": "https://assets.stagingeb.com/property_images/25372/49729/EB-B5372_thumb.jpg?version=1555543525",
+      "location": "Del Valle, San Pedro Garza García, Nuevo León",
+      "operations": [
+        {
+          "type": "rental",
+          "amount": 400.0,
+          "currency": "MXN",
+          "formatted_amount": "$400",
+          "unit": "total"
+        }
+      ],
+      "bedrooms": null,
+      "bathrooms": null,
+      "parking_spaces": null,
+      "property_type": "Local comercial",
+      "lot_size": 0.0,
+      "construction_size": 1.0,
+      "updated_at": "2020-12-14T17:07:38-06:00",
+      "agent": "Alejandro Blanco Zivec",
+      "show_prices": true
+    },
+    {
+      "public_id": "EB-B5378",
+      "title": "Departamento en Renta Torre Arcangeles en San Pedro Garza Garcia",
+      "title_image_full": "https://assets.stagingeb.com/property_images/25378/49796/EB-B5378.jpg?version=1555543572",
+      "title_image_thumb": "https://assets.stagingeb.com/property_images/25378/49796/EB-B5378_thumb.jpg?version=1555543572",
+      "location": "Los Arcángeles, San Pedro Garza García, Nuevo León",
+      "operations": [
+        {
+          "type": "rental",
+          "amount": 38000.0,
+          "currency": "MXN",
+          "formatted_amount": "$38,000",
+          "unit": "total"
+        }
+      ],
+      "bedrooms": 2,
+      "bathrooms": 3,
+      "parking_spaces": null,
+      "property_type": "Departamento",
+      "lot_size": 0.0,
+      "construction_size": 0.0,
+      "updated_at": "2020-12-14T17:07:38-06:00",
+      "agent": "Alejandro Blanco Zivec",
+      "show_prices": true
+    },
+    {
+      "public_id": "EB-B5387",
+      "title": "Oficinas en Venta en Valle Oriente",
+      "title_image_full": "https://assets.stagingeb.com/property_images/25387/49925/EB-B5387.jpg?version=1555543660",
+      "title_image_thumb": "https://assets.stagingeb.com/property_images/25387/49925/EB-B5387_thumb.jpg?version=1555543660",
+      "location": "Hacienda de La Sierra, San Pedro Garza García, Nuevo León",
+      "operations": [
+        {
+          "type": "sale",
+          "amount": 67000.0,
+          "currency": "MXN",
+          "formatted_amount": "$67,000",
+          "unit": "total"
+        }
+      ],
+      "bedrooms": null,
+      "bathrooms": null,
+      "parking_spaces": null,
+      "property_type": "Oficina",
+      "lot_size": 0.0,
+      "construction_size": 0.0,
+      "updated_at": "2020-12-14T17:07:38-06:00",
+      "agent": "Alejandro Blanco Zivec",
+      "show_prices": true
+    },
+    {
+      "public_id": "EB-B5396",
+      "title": "Casa en Renta en Lomas del Valle en San Pedro Garza Garcia",
+      "title_image_full": "https://assets.stagingeb.com/property_images/25396/50038/EB-B5396.jpg?version=1555543740",
+      "title_image_thumb": "https://assets.stagingeb.com/property_images/25396/50038/EB-B5396_thumb.jpg?version=1555543740",
+      "location": "Lomas Del Valle, San Pedro Garza García, Nuevo León",
+      "operations": [
+        {
+          "type": "rental",
+          "amount": 90000.0,
+          "currency": "MXN",
+          "formatted_amount": "$90,000",
+          "unit": "total"
+        }
+      ],
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "parking_spaces": 2,
+      "property_type": "Casa",
+      "lot_size": 1.0,
+      "construction_size": 1.0,
+      "updated_at": "2020-12-14T17:07:38-06:00",
+      "agent": "Alejandro Blanco Zivec",
+      "show_prices": true
+    },
+    {
+      "public_id": "EB-B5398",
+      "title": "Departamentos Amueblados en Renta Valle Oriente",
+      "title_image_full": "https://assets.stagingeb.com/property_images/25398/50065/EB-B5398.jpg?version=1555543756",
+      "title_image_thumb": "https://assets.stagingeb.com/property_images/25398/50065/EB-B5398_thumb.jpg?version=1555543756",
+      "location": "Zona Valle Oriente Norte, San Pedro Garza García, Nuevo León",
+      "operations": [
+        {
+          "type": "rental",
+          "amount": 19000.0,
+          "currency": "MXN",
+          "formatted_amount": "$19,000",
+          "unit": "total"
+        }
+      ],
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "parking_spaces": 2,
+      "property_type": "Departamento",
+      "lot_size": 0.0,
+      "construction_size": 140.0,
+      "updated_at": "2020-12-14T17:07:38-06:00",
+      "agent": "Alejandro Blanco Zivec",
+      "show_prices": true
+    },
+    {
+      "public_id": "EB-B5359",
+      "title": "Oficinas en Renta en Torre Altha San Pedro Garza Garcia",
+      "title_image_full": "https://assets.stagingeb.com/property_images/25359/49622/EB-B5359.jpg?version=1555543455",
+      "title_image_thumb": "https://assets.stagingeb.com/property_images/25359/49622/EB-B5359_thumb.jpg?version=1555543455",
+      "location": "Valle Del Campestre, San Pedro Garza García, Nuevo León",
+      "operations": [
+        {
+          "type": "rental",
+          "amount": 290.0,
+          "currency": "MXN",
+          "formatted_amount": "$290",
+          "unit": "total"
+        }
+      ],
+      "bedrooms": null,
+      "bathrooms": null,
+      "parking_spaces": null,
+      "property_type": "Oficina",
+      "lot_size": 0.0,
+      "construction_size": 500.0,
+      "updated_at": "2020-12-14T17:07:39-06:00",
+      "agent": "Alejandro Blanco Zivec",
+      "show_prices": true
+    },
+    {
+      "public_id": "EB-B5361",
+      "title": "Oficina en Venta Centrito 360 San Pedro Garza Garcia",
+      "title_image_full": "https://assets.stagingeb.com/property_images/25361/49640/EB-B5361.jpg?version=1555543467",
+      "title_image_thumb": "https://assets.stagingeb.com/property_images/25361/49640/EB-B5361_thumb.jpg?version=1555543467",
+      "location": "Del Valle, San Pedro Garza García, Nuevo León",
+      "operations": [
+        {
+          "type": "sale",
+          "amount": 13378350.0,
+          "currency": "MXN",
+          "formatted_amount": "$13,378,350",
+          "unit": "total"
+        }
+      ],
+      "bedrooms": null,
+      "bathrooms": null,
+      "parking_spaces": null,
+      "property_type": "Oficina",
+      "lot_size": 0.0,
+      "construction_size": 248.0,
+      "updated_at": "2020-12-14T17:07:39-06:00",
+      "agent": "Alejandro Blanco Zivec",
+      "show_prices": true
+    },
+    {
+      "public_id": "EB-B5363",
+      "title": "Departamentos en Venta Centrito 360 San Pedro Garza Garcia",
+      "title_image_full": "https://assets.stagingeb.com/property_images/25363/49660/EB-B5363.jpg?version=1555543479",
+      "title_image_thumb": "https://assets.stagingeb.com/property_images/25363/49660/EB-B5363_thumb.jpg?version=1555543479",
+      "location": "Del Valle, San Pedro Garza García, Nuevo León",
+      "operations": [
+        {
+          "type": "sale",
+          "amount": 12711400.0,
+          "currency": "MXN",
+          "formatted_amount": "$12,711,400",
+          "unit": "total"
+        }
+      ],
+      "bedrooms": 0,
+      "bathrooms": null,
+      "parking_spaces": null,
+      "property_type": "Departamento",
+      "lot_size": 0.0,
+      "construction_size": 244.0,
+      "updated_at": "2020-12-14T17:07:39-06:00",
+      "agent": "Alejandro Blanco Zivec",
+      "show_prices": true
+    },
+    {
+      "public_id": "EB-B5365",
+      "title": "Oficinas en Renta en Colonia del Valle San Pedro Garza Garcia",
+      "title_image_full": "https://assets.stagingeb.com/property_images/25365/49677/EB-B5365.jpg?version=1555543490",
+      "title_image_thumb": "https://assets.stagingeb.com/property_images/25365/49677/EB-B5365_thumb.jpg?version=1555543490",
+      "location": "Del Valle, San Pedro Garza García, Nuevo León",
+      "operations": [
+        {
+          "type": "rental",
+          "amount": 75000.0,
+          "currency": "MXN",
+          "formatted_amount": "$75,000",
+          "unit": "total"
+        }
+      ],
+      "bedrooms": null,
+      "bathrooms": null,
+      "parking_spaces": 6,
+      "property_type": "Oficina",
+      "lot_size": 0.0,
+      "construction_size": 350.0,
+      "updated_at": "2020-12-14T17:07:39-06:00",
+      "agent": "Alejandro Blanco Zivec",
+      "show_prices": true
+    }
+  ]
+}
